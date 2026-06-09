@@ -93,7 +93,7 @@ export const WORK = [
   {
     title: "Writing",
     sub: "Essays · Books",
-    desc: "Published author with Amazon-bestselling work, and a long-running blog of essays on faith, education and the interior life. Currently writing a new collection of essays.",
+    desc: "Published author with Amazon-bestselling work, and a long-running blog of essays on faith, education and the interior life. Currently writing The Camel to Medina — a collection of essays on migration. Forthcoming.",
   },
   {
     title: "Journaling pedagogy",

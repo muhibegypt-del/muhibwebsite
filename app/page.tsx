@@ -5,7 +5,6 @@ import { Hero } from "@/components/Hero";
 import { Journey } from "@/components/Journey";
 import { About } from "@/components/About";
 import { Work } from "@/components/Work";
-import { NowWriting } from "@/components/NowWriting";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { ScrollProgress } from "@/components/ui";
@@ -27,7 +26,6 @@ export default function Home() {
       <Journey />
       <About />
       <Work />
-      <NowWriting />
       <Contact />
       <Footer />
     </main>
