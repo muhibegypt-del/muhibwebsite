@@ -66,9 +66,9 @@ export function Hero() {
                         ...fu(0.45),
                     }}
                 >
-                    I&rsquo;m Muhib Idris — a writer and educator of fifteen years, working at the meeting point of{" "}
+                    I&rsquo;m Muhib Idris — a publisher and educator of fifteen years, working at the meeting point of{" "}
                     <em style={{ fontStyle: "italic", color: T.text }}>
-                        journaling, pedagogy and the essay
+                        the book, the classroom and the essay
                     </em>
                     .
                 </p>

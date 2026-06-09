@@ -91,9 +91,9 @@ export const JOURNEY = [
 
 export const WORK = [
   {
-    title: "Writing",
-    sub: "Essays · Books",
-    desc: "Published author with Amazon-bestselling work, and a long-running blog of essays on faith, education and the interior life. Currently writing The Camel to Medina — a collection of essays on migration. Forthcoming.",
+    title: "Publishing",
+    sub: "Books · Authors",
+    desc: "Books I have commissioned and brought to print have gone on to become worldwide bestsellers. I work with writers from acquisition through to publication — and the long life of a book after it.",
   },
   {
     title: "Journaling pedagogy",
@@ -120,7 +120,7 @@ export const NAV_LINKS = [
 
 export const SITE = {
   name: "Muhib Idris",
-  tagline: "Writer · Educator · Researcher",
+  tagline: "Publisher · Educator · Researcher",
   email: "hello@muhibidris.com",
   city: "Birmingham, United Kingdom",
 };

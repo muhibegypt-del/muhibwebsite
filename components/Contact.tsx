@@ -18,8 +18,8 @@ export function Contact() {
                         maxWidth: "50ch",
                     }}
                 >
-                    For seminars, consultancy, or writing enquiries — or if you&rsquo;ve come from
-                    one of my talks and want to say salaam — write to me.
+                    For publishing, seminars or consultancy enquiries — or if you&rsquo;ve come
+                    from one of my talks and want to say salaam — write to me.
                 </p>
             </Reveal>
             <Reveal delay={0.1}>

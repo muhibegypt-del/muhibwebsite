@@ -25,8 +25,8 @@ export function About() {
                         }}
                     >
                         For more than a decade I have made my living by the written word — as
-                        an author, a teacher of journaling, and a consultant to charities on
-                        their campaigns and copy.
+                        a publisher of books, a teacher of journaling, and a consultant to
+                        charities on their campaigns and copy.
                     </p>
                 </Reveal>
                 <Reveal delay={0.1}>
@@ -56,13 +56,13 @@ export function About() {
                             fontWeight: 300,
                         }}
                     >
-                        My published essays have reached the{" "}
+                        Books I have published have gone on to become{" "}
                         <strong style={{ fontWeight: 500, color: T.text }}>
-                            Amazon bestseller lists
+                            worldwide bestsellers
                         </strong>
                         , and my education has taken me across four continents, studying
-                        with some of the leading philosophers and scholars of the Islamic
-                        world. I am due to begin a{" "}
+                        with leading philosophers and scholars of the Islamic world. I am
+                        due to begin a{" "}
                         <strong style={{ fontWeight: 500, color: T.text }}>
                             master&rsquo;s degree in philosophy
                         </strong>
