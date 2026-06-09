@@ -93,22 +93,22 @@ export const WORK = [
   {
     title: "Publishing",
     sub: "Books · Authors",
-    desc: "Books I have commissioned and brought to print have gone on to become worldwide bestsellers. I work with writers from acquisition through to publication — and the long life of a book after it.",
+    desc: "I commission and publish books, and stay close to the writers I work with long after the print run.",
   },
   {
     title: "Journaling pedagogy",
     sub: "Youth education",
-    desc: "Original curricula and teaching methods developed for youth centres in inner-city Birmingham, built for and with disenfranchised young people. Five years of classroom instruction underpin every page of it.",
+    desc: "Curricula and teaching methods built across five years in inner-city Birmingham youth centres, now used by youth programmes across the UK.",
   },
   {
     title: "Charity consultancy",
     sub: "Campaigns · Copy",
-    desc: "I help charities say what they mean — shaping campaigns and writing copy that moves people to give, volunteer and stay.",
+    desc: "I help charities clarify their message — campaigns, copy, and the way they ask.",
   },
   {
-    title: "Seminars & research",
-    sub: "Throughout the year",
-    desc: "Talks and seminars for readers, writers and families, drawing on years of research and study with scholars across the Muslim world.",
+    title: "Seminars",
+    sub: "Year-round",
+    desc: "For readers, writers and parents, drawing on years of study with scholars across the Muslim world.",
   },
 ];
 
@@ -120,7 +120,7 @@ export const NAV_LINKS = [
 
 export const SITE = {
   name: "Muhib Idris",
-  tagline: "Publisher · Educator · Researcher",
+  tagline: "Independent Publisher · Educator · Birmingham",
   email: "hello@muhibidris.com",
   city: "Birmingham, United Kingdom",
 };

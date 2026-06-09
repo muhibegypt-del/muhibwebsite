@@ -19,7 +19,7 @@ export function Hero() {
         <section
             className="hero"
             style={{
-                padding: `190px ${T.space.page}px 130px`,
+                padding: `190px ${T.space.page}px 120px`,
                 maxWidth: T.space.maxW,
                 margin: "0 auto",
             }}
@@ -48,17 +48,16 @@ export function Hero() {
                         lineHeight: T.type.h1.leading,
                         letterSpacing: T.type.h1.tracking,
                         color: T.text,
-                        maxWidth: "14ch",
                         ...fu(0.3),
                     }}
                 >
-                    Words, carefully kept, change the people who keep them.
+                    Muhib Idris.
                 </h1>
                 <p
                     style={{
                         fontFamily: T.font.body,
                         marginTop: 34,
-                        maxWidth: "46ch",
+                        maxWidth: "52ch",
                         fontSize: "clamp(19px, 2.2vw, 22px)",
                         lineHeight: 1.55,
                         color: T.textSecondary,
@@ -66,9 +65,11 @@ export function Hero() {
                         ...fu(0.45),
                     }}
                 >
-                    I&rsquo;m Muhib Idris — a publisher and educator of fifteen years, working at the meeting point of{" "}
+                    For fifteen years I have published books, taught journaling, and helped
+                    charities say what they mean. Several of the books I&rsquo;ve published
+                    have gone on to become{" "}
                     <em style={{ fontStyle: "italic", color: T.text }}>
-                        the book, the classroom and the essay
+                        worldwide bestsellers
                     </em>
                     .
                 </p>

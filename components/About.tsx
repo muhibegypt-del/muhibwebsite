@@ -24,9 +24,11 @@ export function About() {
                             fontWeight: 400,
                         }}
                     >
-                        For more than a decade I have made my living by the written word — as
-                        a publisher of books, a teacher of journaling, and a consultant to
-                        charities on their campaigns and copy.
+                        Two through-lines run through my work: books that endure, and the
+                        practice of writing as a way of knowing oneself. Books I have
+                        published have become worldwide bestsellers; the journaling
+                        curricula I built across five years in inner-city Birmingham now
+                        reach youth programmes across the UK.
                     </p>
                 </Reveal>
                 <Reveal delay={0.1}>
@@ -39,30 +41,9 @@ export function About() {
                             fontWeight: 300,
                         }}
                     >
-                        I spent five years as a journaling instructor, and went on to design
-                        curricula and pedagogy for youth centres in inner-city Birmingham —
-                        teaching young people to put their inner lives on paper, and watching
-                        what happens when they do. That work now reaches youth programmes
-                        across the UK.
-                    </p>
-                </Reveal>
-                <Reveal delay={0.15}>
-                    <p
-                        style={{
-                            fontFamily: T.font.body,
-                            fontSize: T.type.body.size,
-                            lineHeight: T.type.body.leading,
-                            color: T.textSecondary,
-                            fontWeight: 300,
-                        }}
-                    >
-                        Books I have published have gone on to become{" "}
-                        <strong style={{ fontWeight: 500, color: T.text }}>
-                            worldwide bestsellers
-                        </strong>
-                        , and my education has taken me across four continents, studying
-                        with leading philosophers and scholars of the Islamic world. I am
-                        due to begin a{" "}
+                        My education has taken me across four continents, studying with
+                        leading philosophers and scholars of the Islamic world. I am due
+                        to begin a{" "}
                         <strong style={{ fontWeight: 500, color: T.text }}>
                             master&rsquo;s degree in philosophy
                         </strong>
