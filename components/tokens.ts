@@ -2,6 +2,9 @@
    DESIGN TOKENS + CONTENT
    ═══════════════════════════════════════════════════════════════ */
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
+export const asset = (path: string) => `${BASE}${path}`;
+
 export const T = {
   bg: "#FAF7F0",
   ink: "#1C2B2D",
@@ -48,28 +51,28 @@ export const SEMINARS = [
 
 export const PHOTOS = [
   {
-    src: "/images/photo-1.jpg",
+    src: asset("/images/photo-1.jpg"),
     alt: "Muhib Idris in conversation alongside a shaykh",
     caption: "In conversation, Kuala Lumpur",
   },
   {
-    src: "/images/photo-2.jpg",
+    src: asset("/images/photo-2.jpg"),
     alt: "Muhib Idris speaking to an audience",
     caption: "Teaching, Kuala Lumpur",
   },
   {
-    src: "/images/photo-3.jpg",
+    src: asset("/images/photo-3.jpg"),
     alt: "Muhib Idris leading a journalling retreat",
     caption: "Leading a single-day journalling retreat, Kuala Lumpur",
   },
   {
-    src: "/images/photo-4.jpg",
+    src: asset("/images/photo-4.jpg"),
     alt: "Muhib Idris walking with Shaykh Mustafa Briggs",
     caption: "With Shaykh Mustafa Briggs, en route to a radio interview",
   },
 ];
 
 export const HERO_IMG = {
-  src: "/images/hero.jpg",
+  src: asset("/images/hero.jpg"),
   alt: "Muhib Idris teaching a seminar at Imam Ghazali Publications",
 };
