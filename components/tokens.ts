@@ -1,126 +1,75 @@
 /* ═══════════════════════════════════════════════════════════════
-   DESIGN TOKENS
-   Single source of truth for colors, typography, spacing, and motion.
+   DESIGN TOKENS + CONTENT
    ═══════════════════════════════════════════════════════════════ */
 
 export const T = {
-  // ── Colors ──────────────────────────────────────────
-  bg: "#FAFAF6",
-  surface: "#FFFFFF",
-  dark: "#17211C",
-  darkSoft: "#1F2A24",
-  text: "#17211C",
-  textSecondary: "#3D4A43",
-  textTertiary: "#6F7973",
-  border: "#D9DAD2",
-  borderHover: "#C9CABF",
-  borderStrong: "#B9BAAD",
-  accent: "#2E5E4B",
-  accentSoft: "#E8EDE5",
-  sand: "#B9A77E",
-  sandSoft: "#E8E0CD",
-
-  // ── Radii ───────────────────────────────────────────
-  radius: { sm: 8, md: 12, lg: 20, xl: 28, full: 9999 },
-
-  // ── Typography ──────────────────────────────────────
-  font: {
-    display: "'Marcellus', Georgia, 'Times New Roman', serif",
-    body: "'Newsreader', Georgia, 'Times New Roman', serif",
-  },
-  type: {
-    h1:      { size: "clamp(44px, 6.4vw, 74px)", weight: 400, leading: 1.06, tracking: "0.005em" },
-    h2:      { size: "clamp(30px, 3.6vw, 48px)", weight: 400, leading: 1.12, tracking: "0.005em" },
-    h3:      { size: 22, weight: 400, leading: 1.25, tracking: "0.005em" },
-    quote:   { size: "clamp(26px, 3.2vw, 42px)", weight: 400, leading: 1.25, tracking: "0.005em" },
-    body:    { size: 17, weight: 300, leading: 1.7, tracking: "0em" },
-    bodySmall: { size: 15, weight: 300, leading: 1.65, tracking: "0em" },
-    caption: { size: 13, weight: 500, leading: 1.4, tracking: "0.02em" },
-    label:   { size: 11.5, weight: 500, leading: 1.2, tracking: "0.22em" },
-    small:   { size: 12.5, weight: 400, leading: 1.4, tracking: "0.02em" },
-  },
-
-  // ── Spacing (semantic) ──────────────────────────────
-  space: {
-    xs: 8,
-    sm: 16,
-    md: 24,
-    lg: 48,
-    xl: 80,
-    section: 110,
-    sectionSm: 72,
-    page: 48,
-    pageMobile: 20,
-    pageXs: 16,
-    maxW: 1100,
-    cardPad: 24,
-    cardGap: 20,
-    tagGap: 22,
-    headingGap: 44,
-    prose: 640,
-    proseWide: 880,
-  },
-
-  // ── Breakpoints ─────────────────────────────────────
-  bp: {
-    sm: 480,
-    md: 768,
-    lg: 1024,
-    xl: 1280,
-  },
-
-  // ── Easing ──────────────────────────────────────────
-  ease: "cubic-bezier(0.22, 1, 0.36, 1)",
-  easeOut: "cubic-bezier(0.16, 1, 0.3, 1)",
+  bg: "#FAF7F0",
+  ink: "#1C2B2D",
+  tealDeep: "#14424A",
+  teal: "#2E8B94",
+  ochre: "#C9952E",
+  faint: "#8A8579",
+  rule: "#DDD6C7",
 } as const;
-
-/* ═══════════════════════════════════════════════════════════════
-   CONTENT
-   ═══════════════════════════════════════════════════════════════ */
-
-export const JOURNEY = [
-  "Birmingham",
-  "Fes",
-  "Granada",
-  "Nouakchott",
-  "Dakar",
-  "Kuala Lumpur",
-  "New York",
-  "Medina",
-];
-
-export const WORK = [
-  {
-    title: "Publishing",
-    sub: "Books · Authors",
-    desc: "I commission and publish books, and stay close to the writers I work with long after the print run.",
-  },
-  {
-    title: "Journaling pedagogy",
-    sub: "Youth education",
-    desc: "Curricula and teaching methods built across five years in inner-city Birmingham youth centres, now used by youth programmes across the UK.",
-  },
-  {
-    title: "Charity consultancy",
-    sub: "Campaigns · Copy",
-    desc: "I help charities clarify their message — campaigns, copy, and the way they ask.",
-  },
-  {
-    title: "Seminars",
-    sub: "Year-round",
-    desc: "For readers, writers and parents, drawing on years of study with scholars across the Muslim world.",
-  },
-];
-
-export const NAV_LINKS = [
-  { label: "About", href: "#about" },
-  { label: "Work", href: "#work" },
-  { label: "Contact", href: "#contact" },
-];
 
 export const SITE = {
   name: "Muhib Idris",
-  tagline: "Independent Publisher · Educator · Birmingham",
   email: "hello@muhibidris.com",
-  city: "Birmingham, United Kingdom",
+  cities: "Kuala Lumpur & Manchester",
+  taglineParts: ["Publisher", "Writer", "Educator", "Kuala Lumpur & Manchester"],
+};
+
+export const ABOUT = [
+  "Muhib Idris is a publisher, writer and educator based between Kuala Lumpur and Manchester. He has been writing for fifteen years — publishing books, appearing on television and radio, and advising Muslim charities and public figures. He serves as COO of Briggs Book Club and of The Latif Foundation, a charity.",
+  "His teaching draws on years of study with scholars of the Islamic tradition across four continents. He has taught at Blue Lantern, at Mukha Tree and Mukha Cafe in Malaysia, and as a guest lecturer on Soul Caravan retreats in Morocco; he leads men's retreats and day-long journalling retreats, and recently delivered a seminar on Malcolm X for Imam Ghazali Publications.",
+  "He is currently reading for an MA in philosophy.",
+];
+
+export const BOOK = {
+  kicker: "Forthcoming 2026",
+  title: "The Camel to Medina",
+  subtitle: "Essays on Meaning, Migration & Movement",
+  desc: "Essays on the British Muslim experience, the rise of Islamophobia, and the longing for hijra — on what it means to stay, to leave, and to belong.",
+  attribution: "Muhib Idris",
+};
+
+export const SEMINARS = [
+  {
+    tag: "Seminar series",
+    title: "The History of Muslims in Britain",
+    desc: "The story we were never taught — sources, people, and how we got here.",
+  },
+  {
+    tag: "Seminar series",
+    title: "The Way Back: Restoring Your Relationship with Your Teen",
+    desc: "For parents and anyone who works with young people.",
+  },
+];
+
+export const PHOTOS = [
+  {
+    src: "/images/photo-1.jpg",
+    alt: "Muhib Idris in conversation alongside a shaykh",
+    caption: "In conversation, Kuala Lumpur",
+  },
+  {
+    src: "/images/photo-2.jpg",
+    alt: "Muhib Idris speaking to an audience",
+    caption: "Teaching, Kuala Lumpur",
+  },
+  {
+    src: "/images/photo-3.jpg",
+    alt: "Muhib Idris leading a journalling retreat",
+    caption: "Leading a single-day journalling retreat, Kuala Lumpur",
+  },
+  {
+    src: "/images/photo-4.jpg",
+    alt: "Muhib Idris walking with Shaykh Mustafa Briggs",
+    caption: "With Shaykh Mustafa Briggs, en route to a radio interview",
+  },
+];
+
+export const HERO_IMG = {
+  src: "/images/hero.jpg",
+  alt: "Muhib Idris teaching a seminar at Imam Ghazali Publications",
 };

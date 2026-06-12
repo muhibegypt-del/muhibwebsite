@@ -2,9 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Muhib Idris — Publisher, Educator, Researcher",
+  title: "Muhib Idris — Publisher, Writer, Educator",
   description:
-    "Muhib Idris is a publisher and educator based in Birmingham. He publishes books that go on to become worldwide bestsellers, teaches journaling pedagogy, and consults for charities on campaigns and copy.",
+    "Muhib Idris is a publisher, writer and educator based between Kuala Lumpur and Manchester. Author of The Camel to Medina: Essays on Meaning, Migration & Movement, forthcoming 2026.",
 };
 
 export default function RootLayout({
